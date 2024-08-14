@@ -57,7 +57,7 @@ async def main():
     async with client:
         await load()
         await client.load_extension("jishaku")
-        await client.start("MTE5ODc1MTM0MDY0MjQ0MzI5Ng.GVxqLz.seRaYxLp7Up4QRthLLMPHz-GknGznvxxzPbEeg")
+        await client.start("")
 
 if __name__ == "__main__":
     try:
